@@ -1,28 +1,49 @@
 # Project Title
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repository contains our group project analyzing the electric vehicle population in Washington state.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+This project analyzes the what electric vehicle data from washington state. Particulary, it goes farther into detail on which countires and cities have the most EVS, which makes and models are most common, and how EV popularity changes by model year.
+
+Using publicly a available dataset via the US government, we explore, find patterns, and draw conclusions.
+
 
 ### Interesting Insight (Optional)
 
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+To be added later
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+Electric Vehicle Population Data: https://catalog.data.gov/dataset/electric-vehicle-population-data?from_hint=eyJzb3J0IjoicG9wdWxhcml0eSJ9
+
+This dataset is real world publically avalible data.
 
 ## Current Plan
 
-Provide some information about what you intend to do with the project. You can additionally refer the visitor to your detailed plan document.
+1 - Import the dataset into R
+
+2 - Determine packages/libraries need to be imported
+
+2 - Look at data and clean any missing or wrong values
+
+3 - Focus on key variables that we are investigating, creating summary statistics with them
+
+4 - Create graphs and visuals on the most important statistics that we are investigating
+
+5 - Interpret finds and explain the patterns
+
+6 - Write the Quarto report
+
+7 - Review and finalize with team
+
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
-
+README.md: Project Overview
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Evan: eag5894@psu.edu
+Ian: iep5058@psu.edu
+
