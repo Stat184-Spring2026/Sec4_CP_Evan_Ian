@@ -1,6 +1,8 @@
 library(tidyverse)
 library(scales)
 
+# Style Guide: Tidyverse Style Guide (https://style.tidyverse.org/)
+
 # Author: Ian
 # Reviewer: Evan
 # Description: Loads, cleans, and prepares EV dataset for analysis. Renames variables,

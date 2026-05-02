@@ -21,6 +21,8 @@ knitr:
 ---
 
 ```{r}
+# Style Guide: Tidyverse Style Guide (https://style.tidyverse.org/)
+
 #| label: setup
 #| include: false
 
@@ -618,6 +620,7 @@ Both Authors:
 - Collaborated on exploratory data analysis and interpretation of results
 - Reviewed each other’s code and contributions
 - Contributed to final conclusions and overall project direction
+
 
 \newpage
 # Code Appendix {.unnumbered}
