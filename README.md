@@ -1,4 +1,4 @@
-# Project Title
+# Washington State: EV Analysis
 
 This repository contains our group project analyzing the electric vehicle population in Washington state.
 
@@ -37,7 +37,12 @@ This dataset is real world publically avalible data provided by the US governmen
 ## Repo Structure
 
 README.md: Project Overview
-Project(folder): Data Folder, Figures/Plots Folder, and Scripts Folder(code for the figures), quarto Folder()
+Project(folder): 
+  Data Folder, 
+  Figures/Plots Folder, 
+  Scripts Folder(code for the figures), 
+  quarto Folder(qmd and pdf)
+.gitignore: Special Files that git will not include in the repository
 
 
 ## Authors
