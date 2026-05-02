@@ -1,6 +1,11 @@
 library(tidyverse)
 library(scales)
 
+# Author: Ian
+# Reviewer: Evan
+# Description: Loads, cleans, and prepares EV dataset for analysis. Renames variables,
+# filters missing values, and creates derived variables used across all visualizations.
+
 # 1. Put Electric_Vehicle_Population_Data.csv in the same folder as this script.
 # 2. In RStudio, go to Session > Set Working Directory > To Source File Location.
 # 3. Then run this whole script.

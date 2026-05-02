@@ -1,3 +1,7 @@
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates bar chart of top 10 counties by EV registrations to analyze geographic concentration.
+
 # Plot 1: Top counties
 
 plot_top_counties <- ev |>

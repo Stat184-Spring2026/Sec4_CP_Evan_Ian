@@ -1,3 +1,7 @@
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates bar chart of top EV makes to identify dominant manufacturers in the dataset.
+
 # Plot 2: Top makes
 
 plot_top_makes <- ev |>

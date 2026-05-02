@@ -1,3 +1,7 @@
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates time series plot of EV registrations by model year and EV type (BEV vs PHEV).
+
 # Plot 3: Model year by EV type
 
 plot_model_year_type <- ev |>

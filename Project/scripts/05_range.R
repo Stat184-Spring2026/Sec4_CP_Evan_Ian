@@ -1,3 +1,7 @@
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates histogram of EV electric range (excluding 0 values) to examine distribution of driving range.
+
 # Plot 5: Electric range distribution
 # Electric range of 0 usually means unknown/not researched, so this plot removes 0s.
 plot_range <- ev |>
