@@ -1,3 +1,7 @@
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates heatmap of EV counts by county and make to explore how manufacturers are distributed geographically.
+
 # Plot 6: County by make heat map
 top_county_names <- ev |>
   count(county, sort = TRUE) |>

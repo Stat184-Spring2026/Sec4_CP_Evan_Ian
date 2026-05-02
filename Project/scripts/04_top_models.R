@@ -1,3 +1,7 @@
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates bar chart of most common EV make and model combinations to analyze market leaders.
+
 # Plot 4: Top make/model combinations
 
 plot_top_models <- ev |>

@@ -21,6 +21,8 @@ knitr:
 ---
 
 ```{r}
+# Style Guide: Tidyverse Style Guide (https://style.tidyverse.org/)
+
 #| label: setup
 #| include: false
 
@@ -599,8 +601,28 @@ it into the `fig-alt` chunk option for each figure. The same prompt structure
 was applied to each of the remaining five figures, with the specific chart
 image provided each time.
 
-\newpage
+## Author Contributions {.unnumbered}
 
+Evan Gill:
+- Identified and sourced the dataset used in the analysis
+- Developed visualizations for geographic distribution (top counties), model year trends, and electric range distribution
+- Contributed to project polishing, final review, and overall presentation quality
+- Wrote and refined portions of the Results section related to these analyses
+- Created and maintained the project README file
+
+Ian Peralta:
+- Cleaned and prepared the dataset for analysis, including variable renaming and filtering
+- Developed visualizations for EV makes, top models, and county-by-make heatmap
+- Wrote the Introduction, Data, and portions of the Results sections in the Quarto report
+- Structured and organized the QMD file and overall report layout
+
+Both Authors:
+- Collaborated on exploratory data analysis and interpretation of results
+- Reviewed each other’s code and contributions
+- Contributed to final conclusions and overall project direction
+
+
+\newpage
 # Code Appendix {.unnumbered}
 
 ## `00_ev_data_prep.R` {.unnumbered}
