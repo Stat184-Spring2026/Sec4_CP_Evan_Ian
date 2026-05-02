@@ -9,15 +9,11 @@ This project analyzes the what electric vehicle data from washington state. Part
 Using publicly a available dataset via the US government, we explore, find patterns, and draw conclusions.
 
 
-### Interesting Insight (Optional)
-
-To be added later
-
 ## Data Sources and Acknowledgements
 
 Electric Vehicle Population Data: https://catalog.data.gov/dataset/electric-vehicle-population-data?from_hint=eyJzb3J0IjoicG9wdWxhcml0eSJ9
 
-This dataset is real world publically avalible data.
+This dataset is real world publically avalible data provided by the US government.
 
 ## Current Plan
 
@@ -41,6 +37,8 @@ This dataset is real world publically avalible data.
 ## Repo Structure
 
 README.md: Project Overview
+Project(folder): Data Folder, Figures/Plots Folder, and Scripts Folder(code for the figures), quarto Folder()
+
 
 ## Authors
 
