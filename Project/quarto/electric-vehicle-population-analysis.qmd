@@ -606,6 +606,11 @@ image provided each time.
 ## `00_ev_data_prep.R` {.unnumbered}
 
 ```{r}
+# Author: Ian
+# Reviewer: Evan
+# Description: Loads, cleans, and prepares EV dataset for analysis. Renames variables,
+# filters missing values, and creates derived variables used across all visualizations.
+
 #| label: appendix-data-prep
 #| echo: true
 #| eval: false
@@ -677,6 +682,10 @@ summary_stats <- ev |>
 ## `01_top_counties.R` {.unnumbered}
 
 ```{r}
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates bar chart of top 10 counties by EV registrations to analyze geographic concentration.
+
 #| label: appendix-top-counties
 #| echo: true
 #| eval: false
@@ -717,6 +726,10 @@ ggsave(
 ## `02_top_makes.R` {.unnumbered}
 
 ```{r}
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates bar chart of top EV makes to identify dominant manufacturers in the dataset.
+
 #| label: appendix-top-makes
 #| echo: true
 #| eval: false
@@ -757,6 +770,10 @@ ggsave(
 ## `03_model_year_by_type.R` {.unnumbered}
 
 ```{r}
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates time series plot of EV registrations by model year and EV type (BEV vs PHEV).
+
 #| label: appendix-model-year
 #| echo: true
 #| eval: false
@@ -802,6 +819,10 @@ ggsave(
 ## `04_top_models.R` {.unnumbered}
 
 ```{r}
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates bar chart of most common EV make and model combinations to analyze market leaders.
+
 #| label: appendix-top-models
 #| echo: true
 #| eval: false
@@ -842,6 +863,10 @@ ggsave(
 ## `05_range_histogram.R` {.unnumbered}
 
 ```{r}
+# Author: Evan
+# Reviewer: Ian
+# Description: Creates histogram of EV electric range (excluding 0 values) to examine distribution of driving range.
+
 #| label: appendix-range
 #| echo: true
 #| eval: false
@@ -883,6 +908,11 @@ ggsave(
 ## `06_county_make_heatmap.R` {.unnumbered}
 
 ```{r}
+# Author: Ian
+# Reviewer: Evan
+# Description: Creates heatmap of EV counts by county and make to explore how manufacturers are distributed geographically.
+
+
 #| label: appendix-heatmap
 #| echo: true
 #| eval: false
